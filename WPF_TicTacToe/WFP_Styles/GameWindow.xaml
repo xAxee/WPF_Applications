@@ -1,0 +1,46 @@
+﻿<Window x:Class="WFP_Styles.GameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WFP_Styles"
+        mc:Ignorable="d"
+        Title="Plansza"
+        ResizeMode="CanResizeWithGrip" Background="#FF232323"
+        MinHeight="336" MaxHeight="336" MinWidth="320" MaxWidth="320">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#FF2B2B2B"/>
+            <Setter Property="Foreground" Value="white"/>
+            <Setter Property="FontSize" Value="40"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="BorderBrush" Value="Black"/>
+        </Style>
+    </Window.Resources>
+    <Grid Margin="10">
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Label x:Name="move" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" Foreground="White">Ruch: O</Label>
+        <Button x:Name="pole_1" Grid.Row="1" Grid.Column="0" Content="X" Width="100" Height="100"/>
+        <Button x:Name="pole_2" Grid.Row="1" Grid.Column="1" Content="X" Width="100" Height="100"/>
+        <Button x:Name="pole_3" Grid.Row="1" Grid.Column="2"  Content="X" Width="100" Height="100"/>
+        <Button x:Name="pole_4" Grid.Row="2" Grid.Column="0"  Content="X" Width="100" Height="100"/>
+        <Button x:Name="pole_5" Grid.Row="2" Grid.Column="1"  Content="X" Width="100" Height="100"/>
+        <Button x:Name="pole_6" Grid.Row="2" Grid.Column="2"  Content="X" Width="100" Height="100"/>
+        <Button x:Name="pole_7" Grid.Row="3" Grid.Column="0"  Content="X" Width="100" Height="100"/>
+        <Button x:Name="pole_8" Grid.Row="3" Grid.Column="1"  Content="X" Width="100" Height="100"/>
+        <Button x:Name="pole_9" Grid.Row="3" Grid.Column="2"  Content="X" Width="100" Height="100"/>
+    </Grid>
+</Window>

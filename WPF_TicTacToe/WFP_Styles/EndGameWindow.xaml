@@ -1,0 +1,13 @@
+﻿<Window x:Class="WFP_Styles.EndGameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WFP_Styles"
+        mc:Ignorable="d"
+        Title="Koniec gry" MinHeight="125" MaxHeight="125" MinWidth="275" MaxWidth="275">
+    <Grid Background="#FF1D1D1D">
+        <Label HorizontalAlignment="Center" VerticalAlignment="Top" Foreground="#FFDEDEDE" FontSize="25px" FontWeight="Bold">Koniec Gry!</Label>
+        <Label x:Name="win" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="10" Foreground="#FFDEDEDE" FontSize="20px" FontWeight="Bold">Wygrywa: </Label>
+    </Grid>
+</Window>
