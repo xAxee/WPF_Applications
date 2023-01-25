@@ -10,7 +10,7 @@
     <Window.Resources>
         <Style TargetType="{x:Type Window}">
             <Setter Property="FontFamily" Value="Cordia New" />
-            
+
         </Style>
         <!-- Result style -->
         <Style TargetType="TextBox">
@@ -29,11 +29,11 @@
             <Setter Property="Background" Value="#444444"/>
             <Setter Property="BorderBrush" Value="Black"/>
         </Style>
-           
+
         <!-- Operators Button substyle -->
         <Style TargetType="Button" x:Key="operator_style" BasedOn="{StaticResource number_style}">
             <Setter Property="Background" Value="Orange"/>
-            
+
         </Style>
 
         <!-- Actions Button substyle-->
@@ -43,43 +43,6 @@
         </Style>
 
     </Window.Resources>
-    <!--
-    <Grid>
-        <Grid.Resources>
-            <Style TargetType="Button">
-
-            </Style>
-            <Style x:Key="Num_Style" TargetType="Button">
-                <Setter Property="Background" Value="#FFC5C5C5"/>
-            </Style>
-            <Style x:Key="Action_Style" TargetType="Button">
-                <Setter Property="Background" Value="#FF909090"/>
-                <Setter Property="Width" Value="60"></Setter>
-                <Setter Property="Height" Value="40"></Setter>
-                <Setter Property="BorderBrush" Value="50"></Setter>
-            </Style>
-        </Grid.Resources>
-
-        <TextBlock x:Name="resultText" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Width="304" Height="75" FontWeight="Bold" FontSize="20" Text=""/>
-        <Button x:Name="num_7" Content="7" Style="{StaticResource Num_Style}" HorizontalAlignment="Left" Margin="5,80,0,0" VerticalAlignment="Top" Width="70" Height="50" BorderBrush="Black"/>
-        <Button x:Name="num_8" Content="8" Style="{StaticResource Num_Style}" HorizontalAlignment="Left" Margin="80,80,0,0" VerticalAlignment="Top" Width="70" Height="50" BorderBrush="Black"/>
-        <Button x:Name="num_9" Content="9" Style="{StaticResource Num_Style}" HorizontalAlignment="Left" Margin="155,80,0,0" VerticalAlignment="Top" Width="70" Height="50" BorderBrush="Black"/>
-        <Button x:Name="action_mul" Content="*" Style="{StaticResource Action_Style}" Margin="230,80,0,0" VerticalAlignment="Top" Height="50" BorderBrush="Black" HorizontalAlignment="Left" Width="70"/>
-        <Button x:Name="num_4" Content="4" Style="{StaticResource Num_Style}" HorizontalAlignment="Left" Margin="5,135,0,0" VerticalAlignment="Top" Width="70" Height="50" BorderBrush="Black"/>
-        <Button x:Name="num_5" Content="5" Style="{StaticResource Num_Style}" HorizontalAlignment="Left" Margin="80,135,0,0" VerticalAlignment="Top" Width="70" Height="50" BorderBrush="Black"/>
-        <Button x:Name="num_6" Content="6" Style="{StaticResource Num_Style}" HorizontalAlignment="Left" Margin="155,135,0,0" VerticalAlignment="Top" Width="70" Height="50" BorderBrush="Black"/>
-        <Button x:Name="action_div" Content="/" Style="{StaticResource Action_Style}" HorizontalAlignment="Left" Margin="230,135,0,0" VerticalAlignment="Top" Width="70" Height="50" BorderBrush="Black"/>
-        <Button x:Name="num_1" Content="1" Style="{StaticResource Num_Style}" HorizontalAlignment="Left" Margin="5,190,0,0" VerticalAlignment="Top" Width="70" Height="50" BorderBrush="Black"/>
-        <Button x:Name="num_2" Content="2" Style="{StaticResource Num_Style}" HorizontalAlignment="Left" Margin="80,190,0,0" VerticalAlignment="Top" Width="70" Height="50" BorderBrush="Black"/>
-        <Button x:Name="num_3" Content="3" Style="{StaticResource Num_Style}" HorizontalAlignment="Left" Margin="155,190,0,0" VerticalAlignment="Top" Width="70" Height="50" BorderBrush="Black"/>
-        <Button x:Name="action_rem" Content="-" Style="{StaticResource Action_Style}" HorizontalAlignment="Left" Margin="230,190,0,0" VerticalAlignment="Top" Width="70" Height="50" BorderBrush="Black"/>
-        <Button x:Name="action_clear" Content="C" Style="{StaticResource Action_Style}" HorizontalAlignment="Left" Margin="5,245,0,0" VerticalAlignment="Top" Width="70" Height="50" BorderBrush="Black"/>
-        <Button x:Name="num_0" Content="0" Style="{StaticResource Num_Style}" HorizontalAlignment="Left" Margin="80,245,0,0" VerticalAlignment="Top" Width="70" Height="50" BorderBrush="Black"/>
-        <Button x:Name="action_equal" Content="=" Style="{StaticResource Action_Style}" HorizontalAlignment="Left" Margin="155,245,0,0" VerticalAlignment="Top" Width="70" Height="50" BorderBrush="Black"/>
-        <Button x:Name="action_add" Content="+" Style="{StaticResource Action_Style}" HorizontalAlignment="Left" Margin="230,245,0,0" VerticalAlignment="Top" BorderBrush="Black"/>
-
-
-    </Grid>-->
     <Grid Margin="10">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
