@@ -9,6 +9,7 @@
 
     <Window.Resources>
         <Style TargetType="{x:Type Window}">
+            
             <Setter Property="FontFamily" Value="Cordia New" />
 
         </Style>
